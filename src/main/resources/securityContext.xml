@@ -25,7 +25,7 @@
 		class="org.springframework.security.cas.web.CasAuthenticationEntryPoint">
 		<!-- Change with your own CAS server -->
 		<property name="loginUrl"
-			value="http://localhost:8888/cas/login" />
+			value="http://localhost:9443/cas/login" />
 		<property name="serviceProperties" ref="serviceProperties" />
 
 	</bean>
@@ -52,7 +52,7 @@
 			<bean class="org.jasig.cas.client.validation.Cas20ServiceTicketValidator">
 				<!-- Change with your own CAS server -->
 				<constructor-arg index="0"
-					value="http://localhost:8888/cas/p3/" />
+					value="http://localhost:9443/cas/p3/" />
 			</bean>
 		</property>
 		<property name="key" value="an_id_for_this_auth_provider_only" />

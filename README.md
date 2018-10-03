@@ -9,4 +9,6 @@ Most of the configuration is defined in the **src/main/resources/securityContext
 
 A specific logout application url is available at: http://localhost:8080/j_spring_security_logout.
 
-Run your CAS server on http://localhost:8888/cas.
+Run your CAS server on https://localhost:9443/cas.
+
+mvn clean package jetty:run

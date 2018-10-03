@@ -17,7 +17,7 @@
 			<li class="active"><a href="/index.jsp">You are on the /index.jsp page</a></li>
 			<li><a href="/protected/index.jsp">Call the /protected/index.jsp page</a></li>
 			<!-- #### change with your own CAS server and your host name #### -->
-			<li><a href="http://localhost:8888/cas/logout?service=http://localhost:8080">Call the CAS logout</a></li>
+			<li><a href="http://localhost:9443/cas/logout?service=http://localhost:8080">Call the CAS logout</a></li>
 		</ul>
 		<h3>
 			<p>principal: <sec:authentication property="principal" /></p>
